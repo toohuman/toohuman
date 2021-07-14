@@ -1,6 +1,7 @@
 baseURL = "https://toohuman.io/"
 languageCode = "en-gb"
-title = "TooHuman - Thoughts on Collective Intelligence"
+title = "TooHuman"
+subtitle = "TooHuman"
 theme = "PaperMod"
 
 paginate = 5
@@ -17,11 +18,12 @@ minifyOutput = true
 [params]
 env = "production"
 title = "TooHuman"
+subtitle = "Thoughts on Collective Intelligence"
 description = "Postdoc in Autonomous Systems"
 keywords = [ "Blog", "Portfolio", "PaperMod" ]
 author = "Michael Crosscombe"
 images = [ "<link or path of image for opengraph, twitter-cards>" ]
-DateFormat = "January 2, 2006"
+DateFormat = "2006/01/02"
 defaultTheme = "auto"
 disableThemeToggle = false
 ShowReadingTime = true
@@ -67,29 +69,33 @@ tocopen = false
     url = "tags"
 
     [params.homeInfoParams]
-    Title = "Hi there 👋"
-    Content = "Welcome to my blog"
+    Title = "Hi, I'm Michael"
+    Content = "Welcome to my website where I showcase some of my recent academic work as well as some thoughts on related subjects (if I'm lucky to have some)."
 
     [[params.socialIcons]]
     name = "twitter"
-    url = "https://twitter.com/"
-
-    [[params.socialIcons]]
-    name = "stackoverflow"
-    url = "https://stackoverflow.com"
+    url = "https://twitter.com/m_crosscombe"
 
     [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/"
+    url = "https://github.com/toohuman"
 
-[params.analytics.google]
-SiteVerificationTag = "XYZabc"
+    [[params.socialIcons]]
+    name = "googlescholar"
+    url = "https://scholar.google.com/citations?user=JPdbUXwAAAAJ&hl=en"
 
-[params.analytics.bing]
-SiteVerificationTag = "XYZabc"
+    [[params.socialIcons]]
+    name = "youtube"
+    url = "https://www.youtube.com/channel/UCST_bg4VDELaRDMLtxXN7Ow"
 
-[params.analytics.yandex]
-SiteVerificationTag = "XYZabc"
+# [params.analytics.google]
+# SiteVerificationTag = "XYZabc"
+#
+# [params.analytics.bing]
+# SiteVerificationTag = "XYZabc"
+#
+# [params.analytics.yandex]
+# SiteVerificationTag = "XYZabc"
 
     [params.cover]
     hidden = true
@@ -97,7 +103,7 @@ SiteVerificationTag = "XYZabc"
     hiddenInSingle = true
 
     [params.editPost]
-    URL = "https://github.com/toohuman.github.io/content"
+    URL = "https://github.com/toohuman/toohuman-hugo/blob/master/content"
     Text = "Suggest Changes"
     appendFilePath = true
 
