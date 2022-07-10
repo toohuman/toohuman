@@ -1,138 +1,211 @@
 baseURL = "https://toohuman.io/"
 languageCode = "en-gb"
 title = "TooHuman"
-subtitle = "TooHuman"
-theme = "PaperMod"
+theme = "hello-friend-ng"
 
-paginate = 5
+paginate = 10
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpired = false
+canonifyURLs = true
 
 enableRobotsTXT = true
-buildDrafts = true
-buildFuture = false
-buildExpired = false
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS      = false
+disableSitemap  = false
+disable404       = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+    posts = "/posts/:year/:month/:title/"
+
+[author]
+    name = "Michael"
+
+[taxonomies]
+    tag      = "tags"
+    series   = "series"
 
 [minify]
-disableXML = true
-minifyOutput = true
+    disableXML = true
+    minifyOutput = true
 
 [params]
-env = "production"
-title = "TooHuman"
-subtitle = "Thoughts on Collective Intelligence"
-description = "Postdoc in Autonomous Systems"
-keywords = [ "Blog", "Portfolio", "PaperMod" ]
-author = "Michael Crosscombe"
-images = [ "<link or path of image for opengraph, twitter-cards>" ]
-DateFormat = "2006/01/02"
-defaultTheme = "auto"
-disableThemeToggle = false
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
-ShowCodeCopyButtons = false
-disableSpecial1stPost = false
-disableScrollToTop = false
-comments = false
-hidemeta = false
-hideSummary = false
-showtoc = true
-tocopen = false
+  dateform        = "2006-01-02"
+  dateformShort   = "2006-01-02"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
 
-    [params.assets]
-    favicon = "<link / abs url>"
-    favicon16x16 = "<link / abs url>"
-    favicon32x32 = "<link / abs url>"
-    apple_touch_icon = "<link / abs url>"
-    safari_pinned_tab = "<link / abs url>"
+  # Metadata mostly used in document's head
+  # 
+  description = "An unintelligent collection of thoughts on collective intelligence."
+  keywords = ""
+  images = [""]
 
-    [params.label]
-    text = "Home"
-    icon = "/apple-touch-icon.png"
-    iconHeight = 35
+  # Home subtitle of the index page.
+  #
+  # homeSubtitle = "Thoughts on Collective Intelligence"
 
-    [params.profileMode]
-    enabled = false
-    title = "ExampleSite"
-    subtitle = "This is subtitle"
-    imageUrl = "<img location>"
-    imageWidth = 120
-    imageHeight = 120
-    imageTitle = "my image"
+  # Set a background for the homepage
+  # backgroundImage = "assets/images/background.jpg"
 
-    [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "posts"
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  #
+  # gitUrl = ""
 
-    [[params.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  #
+  disableReadOtherPosts = true
 
-    [params.homeInfoParams]
-    Title = "Hi, I'm Michael"
-    Content = "Welcome to my website where I showcase some of my recent academic work as well as some thoughts on related subjects (if I'm lucky to have some)."
+  # Enable theme toggle
+  # 
+  # This options enables the theme toggle for the theme. 
+  # Per default, this option is off. 
+  # The theme is respecting the prefers-color-scheme of the operating systeme. 
+  # With this option on, the page user is able to set the scheme he wants. 
+  # defaultTheme = "light"
+  enableThemeToggle = true
 
-    [[params.socialIcons]]
+  # Sharing buttons
+  #
+  # There are a lot of buttons preconfigured. If you want to change them,
+  # generate the buttons here: https://sharingbuttons.io
+  # and add them into your own `layouts/partials/sharing-buttons.html`
+  #
+  enableSharingButtons = false
+
+  # Global language menu
+  #
+  # Enables the global language menu.
+  #
+  enableGlobalLanguageMenu = true
+  defaultContentLanguage = "en"
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  #
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  #
+  justifyContent = false  # Set "text-align: justify" to .post-content.
+
+  # Custom footer 
+  # If you want, you can easily override the default footer with your own content. 
+  #
+  [params.footer]
+    trademark = true
+    rss = false
+    copyright = false
+    author = true
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a> & <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
+
+  # Colors for favicons
+  #
+  [params.favicon.color]
+    mask = "#1b1c1d"
+    msapplication = "#1b1c1d"
+    theme = "#1b1c1d"
+
+  [params.logo]
+    logoMark     = ">"
+    logoText     = "TooHuman"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    logoCursorColor    = "#dddddd"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    # logoCursorAnimate  = "2s"
+
+  [[params.socialIcons]]
     name = "twitter"
     url = "https://twitter.com/m_crosscombe"
 
-    [[params.socialIcons]]
+  [[params.socialIcons]]
     name = "github"
     url = "https://github.com/toohuman"
 
-    [[params.socialIcons]]
+  [[params.socialIcons]]
     name = "googlescholar"
     url = "https://scholar.google.com/citations?user=JPdbUXwAAAAJ&hl=en"
 
-    [[params.socialIcons]]
+  [[params.socialIcons]]
     name = "youtube"
     url = "https://www.youtube.com/channel/UCST_bg4VDELaRDMLtxXN7Ow"
 
-# [params.analytics.google]
-# SiteVerificationTag = "XYZabc"
-#
-# [params.analytics.bing]
-# SiteVerificationTag = "XYZabc"
-#
-# [params.analytics.yandex]
-# SiteVerificationTag = "XYZabc"
+  # Commento is more than just a comments widget you can embed — 
+  # it’s a return to the roots of the internet. 
+  # An internet without the tracking and invasions of privacy. 
+  # An internet that is simple and lightweight. 
+  # An internet that is focused on interesting discussions, not ads. 
+  # A better internet.
+  # Uncomment this to enable Commento.
+  #
+  # [params.commento]
+  #   url = ""
 
-    [params.cover]
-    hidden = true
-    hiddenInList = true
-    hiddenInSingle = true
+  # Uncomment this if you want a portrait on your start page
+  #
+  # [params.portrait]
+  #   path     = "/img/image.jpg"
+  #   alt      = "Portrait"
+  #   maxWidth = "50px"
 
-    [params.editPost]
-    URL = "https://github.com/toohuman/toohuman-hugo/blob/master/content"
-    Text = "Suggest Changes"
-    appendFilePath = true
 
-    [params.fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 1_000
-    threshold = 0.4
-    minMatchCharLength = 0
-    keys = [ "title", "permalink", "summary", "content" ]
+[languages]
+  [languages.en]
+    title = "TooHuman"
+    subtitle  = "Thoughts on Collective Intelligence"
+    homeSubtitle = "Thoughts on Collective Intelligence"
+    weight    = 1
 
-[[menu.main]]
-identifier = "categories"
-name = "categories"
-url = "/categories/"
-weight = 10
+  [languages.jp]
+    title = "トゥー・ヒューマン"
+    subtitle  = "集団的知性についての考察"
+    homeSubtitle = "集団的知性についての考察"
+    weight    = 2
 
-[[menu.main]]
-identifier = "tags"
-name = "tags"
-url = "/tags/"
-weight = 20
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name       = "About"
+        url        = "about/"
+        weight     = 1
+    [[menu.main]]
+        identifier = "posts"
+        name       = "Posts"
+        url        = "posts/"
+        weight     = 2
 
-[[menu.main]]
-identifier = "TooHuman"
-name = "toohuman.io"
-url = "https://toohuman.io"
-weight = 30
+    [[menu.main]]
+        identifier = "series"
+        name       = "Series"
+        url        = "series/"
+        weight     = 3
+
+    [[menu.main]]
+        identifier = "tags"
+        name       = "Tags"
+        url        = "tags/"
+        weight     = 4
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 # pygmentsUseClasses: true
