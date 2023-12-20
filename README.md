@@ -1,4 +1,4 @@
-# Hi, I'm Michael
+# 🧑🏻‍🏫 Hi, I'm Michael
 I'm currently a JSPS International Research Fellow at the University of Tokyo, Japan.<br>I am interested in the foundations of Collective Intelligence; mostly in how interactions lead to the emergence of collective behaviour.<br>I completed my PhD in Engineering Mathematics at the University of Bristol, UK.
 
 
