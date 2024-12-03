@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Thoughts on Collective Intelligence"
+  # homeSubtitle = "Thoughts on Collective Intelligence"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -110,6 +110,7 @@ disableHugoGeneratorInject = false
     rss = false
     copyright = false
     author = true
+    copyrightYear = 2024  # Add this line
 
     topText = []
     bottomText = [
