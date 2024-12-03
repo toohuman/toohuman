@@ -172,7 +172,7 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    title = "TooHuman"
+    title = "Too Human"
     subtitle  = "Thoughts on Collective Intelligence"
     homeSubtitle = "Thoughts on Collective Intelligence"
     weight    = 1
