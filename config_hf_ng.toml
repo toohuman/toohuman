@@ -3,6 +3,8 @@ languageCode = "en-gb"
 title = "Too Human"
 theme = "hello-friend-ng"
 
+paginate = 10
+
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
 
@@ -12,7 +14,7 @@ dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
 
-buildDrafts  = false
+buildDrafts  = true
 buildFuture  = false
 buildExpired = false
 canonifyURLs = true
@@ -26,11 +28,11 @@ disableSitemap  = false
 disable404       = false
 disableHugoGeneratorInject = false
 
-[pagination]
-  pagerSize = 10
-
 [permalinks]
     posts = "/posts/:year/:month/:title/"
+
+[author]
+    name = "Michael"
 
 [taxonomies]
     tag      = "tags"
@@ -41,11 +43,12 @@ disableHugoGeneratorInject = false
     minifyOutput = true
 
 [params]
-  author          = { name = "Michael" }
   dateform        = "2006-01-02"
   dateformShort   = "01-02"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+
+  showMenuItems = 2
 
   # Metadata mostly used in document's head
   # 
@@ -55,7 +58,7 @@ disableHugoGeneratorInject = false
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Thoughts on Collective Intelligence"
+  # homeSubtitle = "Thoughts on Collective Intelligence"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -125,28 +128,28 @@ disableHugoGeneratorInject = false
 
   [params.logo]
     logoMark     = ">"
-    logoText     = "Too Human"
+    logoText     = "TooHuman"
     logoHomeLink = "/"
     # Set true to remove the logo cursor entirely.
     # logoCursorDisabled = false
     # Set to a valid CSS color to change the cursor in the logo.
-    logoCursorColor    = "#bbb"
+    logoCursorColor    = "#dddddd"
     # Set to a valid CSS time value to change the animation duration, "0s" to disable.
     # logoCursorAnimate  = "2s"
 
-  [[params.social]]
+  [[params.socialIcons]]
     name = "twitter"
     url = "https://twitter.com/m_crosscombe"
 
-  [[params.social]]
+  [[params.socialIcons]]
     name = "github"
     url = "https://github.com/toohuman"
 
-  [[params.social]]
+  [[params.socialIcons]]
     name = "googlescholar"
     url = "https://scholar.google.com/citations?user=JPdbUXwAAAAJ&hl=en"
 
-  [[params.social]]
+  [[params.socialIcons]]
     name = "youtube"
     url = "https://www.youtube.com/channel/UCST_bg4VDELaRDMLtxXN7Ow"
 

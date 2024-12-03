@@ -1,0 +1,27 @@
+---
+title: "Discovering research: Why I came to Japan"
+date: 2022-07-11T23:51:31+09:00
+author: Michael
+draft: true
+toc: false
+images:
+tags:
+  - untagged
+---
+There is a lot to say about what led me to applying for a JSPS fellowship to afford me a year of independent research in Japan. It is difficult, though, to identify the causal links from one moment to the next leading up to that point in my life.
+
+So instead, I have been thinking about my motivations at the time and what I envisaged from my time in Japan. I hope that distilling this will allow me to make the most of my time here.
+
+I had been in Bristol since the Autumn of 2013 when I started by doctoral research in the Engineering Mathematics department at the University of Bristol. At that time, I was a fresh graduate of Computer Science and my only glimpse into research had been my final-year project, for which I unsuccessfully designed a new ray-tracing-based algorithm for line-of-sight detection in a very rudimentary 3D engine. It was terrible, but like all projects, I learned a lot about programming, basic maths (that I probably should have known already) and how difficult writing up the research was. Doing the research was difficult but rewarding, but writing was just pure pain. That would remain true up to this point.
+
+By the end of my PhD I had learned a lot. Perhaps most importantly, I learned how much I didn't know. I had missed the whole Deep Learning explosion during my PhD, feeling as though it had immediately became too competitive and that I ought not worry about trying to compete when my own PhD had its own interesting aspects and I was enjoying getting some more "real-world" experience by applying my research to the Kilobot platform (physical robot swarms). However, for my postdoc, I was determined to avoid any more (direct) robotics research because it was frustrating and I was happy to live in the simulated world. The problem, though, was that my postdoc became a rehashing of a lot of my PhD research and I think the learning rate plummeted quite rapidly. This was my own fault: I was not ambitious enough with the research plan, and slowly during my PhD my attention span had become shorter and shorter, and my ability to maintain concentration had become the worst it had ever been in my life. I still have not recovered from this to this day.
+
+In 2019, I attended a small international conference on swarm robotics in Okinawa, Japan. It was my first time visiting Japan. Anybody who has had the pleasure of visiting Japan will tell you that their first experience is almost always one of incredulity. It is impossible to succinctly describe to somebody the feeling of exploring Japan. Okinawa was a rather unique first experience of Japan but nevertheless I was really fascinated by the atmosphere I was experiencing. More so because the conference was being held at the Okinawa Institute of Science and Technology (OIST) which has an almost secret villain's lair-type atmosphere but instead filled with academics. (It is truly a unique place, so I would highly recommend that you visit if you can.) At this conference, I attended a workshop on the topic of Artificial Life (ALife) being held by a professor at the University of Tokyo and I was very interested in this overlap of biologists, physicists and AI/robotics researchers all discussing topics related to the origins of life and collective behaviour; the latter was my main interest but ALife was an entirely new topic for me.
+
+After enjoying the rest of the conference and another 10 days exploring Osaka/Kyoto/Nara, I returned to the UK, with a sudden interest in studying/working/living in Japan, even if temporarily.
+
+COVID-19 soon emerged immediately after my return home. I had already decided to enrol in Japanese language classes at the university but I had not yet figured out what my next-steps would be. During lockdown, I attended my first ALIFE conference (2020) which had also suddenly moved to an online format. It was the first time I had really, *really* enjoyed attending an academic conference. I had been to the big conferences like IJCAI and IROS before, but this one was much smaller. Every talk had a whole history that I was unfamiliar with (cellular automata, artificial chemistry, etc.) but a lot of the talks were narrative-based, with compelling results to back them up. Sure, it's not always the most scientific conference, but it's certainly a lot less dry than attending a random session at IJCAI.
+
+In 2021, I again attended the virtual ALIFE conference and, this time, I contacted the professor whom I had first met (briefly) at the conference in Okinawa. I emailed him to ask about the potential for me to work in Japan as a postdoc, and through my own research I had already discovered the JSPS programme that allows foreigners to conduct research in Japan. I received more information from him, as well as the green light, and I was from then on determined to pivot to ALIFE research in Japan.
+
+I received no assistance with the actual writing of the research proposal (the purpose was supposed to be a co-authored proposal) but I didn't mind, because I was excited to think of the possibilities of exploring a new idea I had been slowly building based on the findings of some previous research I had done. I found something amazing at that time.
