@@ -54,8 +54,7 @@ disableHugoGeneratorInject = false
   images = [""]
 
   # Home subtitle of the index page.
-  #
-  # homeSubtitle = "Thoughts on Collective Intelligence"
+  homeSubtitle = "Thoughts on Collective Intelligence"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -172,16 +171,22 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
+    languageCode = "en"
+    languageName = "English"
     title = "Too Human"
-    subtitle  = "Thoughts on Collective Intelligence"
-    homeSubtitle = "Thoughts on Collective Intelligence"
-    weight    = 1
+    subtitle = "Thoughts on Collective Intelligence"
+    weight = 1
+    [languages.en.params]  # Add this nested section
+      homeSubtitle = "Thoughts on Collective Intelligence"
 
-  [languages.jp]
+  [languages.ja]
+    languageCode = "ja"
+    languageName = "日本語"
     title = "トゥー・ヒューマン"
-    subtitle  = "集団的知性についての考察"
-    homeSubtitle = "集団的知性についての考察"
-    weight    = 2
+    subtitle = "集団的知性についての考察"
+    weight = 2
+    [languages.ja.params]  # Add this nested section
+      homeSubtitle = "集団的知性についての考察"
 
 [menu]
     [[menu.main]]
