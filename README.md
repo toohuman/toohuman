@@ -1,7 +1,7 @@
 # Michael Crosscombe, PhD
 
 🔬 **JSPS Postdoctoral Research Fellow** | University of Tokyo  
-🤖 **AI Researcher | Collective Intelligence & Artificial Life**
+🤖 **AI Researcher | Collective Intelligence & Artificial Life**  
 🎓 **Engineering Mathematics (PhD), Computer Science (BSc)**
 
 ### Expertise
