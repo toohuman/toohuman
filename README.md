@@ -13,4 +13,4 @@
 ### Current Interests
 AI/ML roles focusing on agentic LLM systems and safety/interpretability
 
-[🌐 More details on my website](https://toohuman.io)
+[🌐 More info...](https://toohuman.io)
