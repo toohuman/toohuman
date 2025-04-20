@@ -2,9 +2,9 @@
 
 🔬 **JSPS Postdoctoral Research Fellow** | University of Tokyo  
 🤖 **AI Researcher | Collective Intelligence & Artificial Life**
+🎓 **Engineering Mathematics (PhD), Computer Science (BSc)**
 
 ### Expertise
-- Engineering Mathematics (PhD), Computer Science (BSc)
 - Multi-agent systems & swarm robotics
 - ALife & ML (neuroevolution with PyTorch, Gymnasium)
 - LLM-agent systems (LangChain)
