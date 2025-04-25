@@ -5,8 +5,8 @@
 🎓 **Engineering Mathematics (PhD), Computer Science (BSc)**
 
 ### Expertise
-- Multi-agent systems & swarm robotics
 - ALife & ML (neuroevolution with PyTorch, Gymnasium)
+- Multi-agent systems & swarm robotics
 - LLM-agent systems (LangChain)
 - Python, C/C++, D, Java
 
