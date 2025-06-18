@@ -1,11 +1,11 @@
 # Michael Crosscombe
 
 🔬 **JSPS Postdoctoral Research Fellow** | University of Tokyo  
-🤖 **AI Researcher | Collective Intelligence & Artificial Life**  
-🎓 **Engineering Mathematics (PhD), Computer Science (BSc)**
+🤖 **AI Researcher** | Collective Intelligence & Artificial Life
+🎓 **Engineering Mathematics (PhD)**, Computer Science (BSc)
 
 ### Expertise
-- ALife & ML (neuroevolution with PyTorch, Gymnasium)
+- ALife & Complex Systems Analysis (JAX simulations, neuroevolution with PyTorch, Gymnasium)
 - Multi-agent systems & swarm robotics
 - LLM-agent systems (LangChain)
 - Python, C/C++, D, Java
